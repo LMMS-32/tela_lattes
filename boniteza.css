@@ -1,0 +1,196 @@
+.principal {
+	background-color: #E1EAF2;
+	display: block;
+	width: 100%;
+}
+
+.afastador {
+	background: none repeat scroll 0 0 #FFFFFF;
+padding-top: 30px;
+}
+
+/*.box{
+	background: #FFFFFF;
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    border-width: 10px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+
+}*/
+.main-content {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 3px #A6A6A6;
+    -webkit-box-shadow: 1px 1px 3px #A6A6A6;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+.blocodeescrita {
+    	padding: 0 10px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        margin: auto;
+
+        /*coloca a box branca para escrever o text*/
+}
+
+#menu ul{
+	width: 98%;
+	height: auto;
+	padding: 10px;
+	margin: 0;
+	background-color: #3568A7;
+	list-style: none;
+	border-radius: 0 0 10px 10px;
+	
+
+	/*a border-radius arredonda as bordas da barra do menu*/
+	/* remove os pontinhos antes dos itens*/
+}
+#menu ul li {
+	display: inline;
+	position: relative;
+	/*alinha os itens na horizontal*/
+}
+
+
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	margin-left: 25px;
+	background-color: #3568A7;
+	color: #ffffff;
+	text-decoration: none;
+	/* remove o sublinhado do link*/
+	border-bottom: 3px solid #069;
+}
+
+#menu ul li a:hover {
+	/* efeito para quando passar o mouse em cima do item do menu*/
+	color: #f5f5f5;
+	border-bottom: 3px solid #f5f5f5;
+}
+
+
+.tabela {
+
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	line-height:1em;
+	height: inherit;
+
+}
+
+
+body {
+	background: none repeat scroll 0 0 #E1EAF2;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	height: inherit;
+}
+
+.page {
+	background: none repeat scroll 0 0 #E1EAF2;
+	color: #326c99;
+	display: inline-block;
+	font-size: 10px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+div {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height:1em;
+	height: inherit;
+	margin-top: inherit;
+}
+
+/* agora volta para fazer os dados do cabeçalho fixo*/
+
+img.foto {
+    border: 1px solid #A0BAD5;
+    border-radius: 15px;
+    width: 95px;
+    display: block;
+	margin: 5px;
+	background: none repeat scroll 0 0 #e9090900;
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 6px;
+	outline: 0 none;
+	vertical-align: baseline;
+	text-align: left;
+	float: left; /* quebra o texto ao redor da imagem*/
+  	margin: 1em 1em 0 0 ;
+}
+
+.infpessoa {
+    margin-top: 0px;
+    margin-left: 114px;
+    clear: left;
+    margin: inherit;
+    margin-top: inherit;
+    margin-right: inherit;
+    margin-bottom: inherit;
+    margin-left: inherit;
+}
+.nome {
+    color: #006699;
+    font-size: 19px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+
+} 
+.texto {
+    color: #666666;
+    font-size: 11px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.layout-cell-pad-main {
+    padding: 0 10px;
+    background: none repeat scroll 0 0 #e9090900;
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0 none;
+	vertical-align: baseline;
+	text-align: left;
+}
+
+p.resumo {
+    color: #666666;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 8px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.layout-cell-12 {
+    width: 100%;
+}
+.layout-cell {
+    float: left;
+    left: 1px;
+    min-height: 1px;
+    min-width: 1px;
+}
